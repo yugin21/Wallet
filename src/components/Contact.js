@@ -54,7 +54,7 @@ const Contact = () =>{
                     <Text style = {styles.contactName}>David Hannsson</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style = {styles.contactCard}>
+                <TouchableOpacity style = {[styles.contactCard,{marginRight:20}]}>
                     <Image 
                         style = {styles.ppStyle}
                         source = {jordan}
