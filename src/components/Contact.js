@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, ScrollView, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import styles from './styles';
 
 const addIcon = require('../assets/plus.png')
 const elonMusk = require('../assets/elon.jpg')
@@ -64,64 +65,5 @@ const Contact = () =>{
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    contactContainer:{
-        backgroundColor: '#fcfcfc',
-        height: 140,
-        paddingTop: 10,
-        position: 'relative',
-        paddingLeft: 20,
-    },
-    contactText:{
-        fontSize: 15,
-        color: '#b7b5b5',
-        paddingBottom: 7,
-    },
-    addcontactCard:{
-        height: 90,
-        width: 70,
-        paddingHorizontal: 7,
-        paddingVertical: 7,
-        borderRadius: 2,
-        borderWidth: 1,
-        borderColor: '#efeded',
-        borderStyle: 'dashed',
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'space-around',
-        flex: 1,
-        marginHorizontal: 4,
-    },
-    contactCard:{
-        height: 90,
-        width: 70,
-        paddingHorizontal: 7,
-        paddingVertical: 7,
-        borderRadius: 2,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'space-around',
-        flex: 1,
-        marginHorizontal: 4,
-    },
-    addIconStyle:{
-        height: 15,
-        width: 15,
-        borderWidth: 1,
-        borderRadius: 15 / 2,
-    },
-    contactName:{
-        fontSize: 11,
-        color: '#b7b5b5',
-        textAlign: 'center'
-    },
-    ppStyle:{
-        height: 35,
-        width: 35,
-        borderWidth: 1,
-        borderRadius: 35 / 2,
-    },
-})
 
 export default Contact;

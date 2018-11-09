@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+import styles from './styles';
 
 const hm = require('../assets/hm.png')
 const apple = require('../assets/apple.png')
@@ -180,46 +181,5 @@ const Transations = () =>{
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    transContainer:{
-        backgroundColor: '#fcfcfc',
-        height: '30%',
-        position: 'relative',
-        paddingLeft: 20,
-    },
-    transText:{
-        fontSize: 15,
-        color: '#b7b5b5',
-        paddingBottom: 7,
-    },
-    transSection:{
-        height: 47,
-        width: '95%',
-        paddingHorizontal: 7,
-        paddingVertical: 7,
-        borderRadius: 2,
-        backgroundColor: '#fff',
-        flex: 1,
-        flexDirection: 'row',
-        marginVertical: 4,
-    },
-    loadSection:{
-        height: 47,
-        width: '95%',
-        borderRadius: 2,
-        backgroundColor: '#fff',
-        marginTop: 4,
-        marginBottom: 45,
-        justifyContent: 'center', 
-        alignItems: 'center'
-    },
-    transIconStyle:{
-        height: 35,
-        width: 35,
-        marginLeft: 5,
-        marginRight: 10,
-    },
-})
 
 export default Transations;

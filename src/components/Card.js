@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, ScrollView, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
+import { View, ScrollView, Text, TouchableOpacity, Image } from 'react-native';
 import Icon from 'react-native-fa-icons';
+import styles from './styles'
 
 const cardImage = require('../assets/cc0.png')
 const cardImage1 = require('../assets/cc1.png')
@@ -60,55 +61,5 @@ class Card extends React.Component {
     }
 }
     
-
-const styles = StyleSheet.create({
-    wrapper:{
-        backgroundColor: '#57606f',
-        height: 235,
-        paddingTop: 15,
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 2},
-        shadowOpacity: 0.2,
-        elevation: 2,
-        position: 'relative'
-    },
-    titleStyle:{
-        fontSize: 17,
-        color: '#fff'
-    },
-    headerStyle:{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'flex-start',
-        
-    },
-    profileIconStyle:{
-        fontSize: 17, 
-        color:'white',
-        marginLeft: 17
-    },
-    searchIconStyle:{
-        fontSize: 17, 
-        color:'white',
-        marginRight: 17,
-    },
-    cardWrapper:{
-        flex: 1, 
-        flexDirection: 'column', 
-        justifyContent: 'center',
-        alignItems: 'center',  
-        paddingTop: 10, 
-    },
-    cardImageStyle:{
-        height: 145,
-        width: 249
-    },
-    balanceText:{
-        fontSize: 15,
-        color: '#fff',
-        paddingBottom: 10,
-        alignSelf: 'center'
-    }
-})
 
 export default Card;
