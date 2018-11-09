@@ -106,7 +106,7 @@ export default StyleSheet.create({
     },
     transContainer:{
         backgroundColor: '#fcfcfc',
-        height: '30%',
+        height: 160,
         position: 'relative',
         paddingLeft: 20,
     },
