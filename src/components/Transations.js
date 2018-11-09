@@ -175,7 +175,7 @@ const Transations = () =>{
                     </TouchableOpacity>
 
                     <TouchableOpacity style = {styles.loadSection}>
-                        <Text style = {{fontSize: 15}}>More transations</Text>
+                        <Text style = {{fontSize: 15,}}>More transations</Text>
                     </TouchableOpacity>
             </ScrollView>
         </View>
