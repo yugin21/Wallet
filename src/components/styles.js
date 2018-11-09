@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 export default StyleSheet.create({
     wrapper:{
@@ -106,10 +106,9 @@ export default StyleSheet.create({
     },
     transContainer:{
         backgroundColor: '#fcfcfc',
-        height: '100%',
+        height: '30%',
         position: 'relative',
         paddingLeft: 20,
-        paddingBottom: '87.5%',
     },
     transText:{
         fontSize: 15,
