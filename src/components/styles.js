@@ -109,7 +109,7 @@ export default StyleSheet.create({
         height: '100%',
         position: 'relative',
         paddingLeft: 20,
-        marginBottom: '111.6%',
+        paddingBottom: '87.5%',
     },
     transText:{
         fontSize: 15,
