@@ -7,7 +7,7 @@ const cardImage = require('../assets/cc0.png')
 const cardImage1 = require('../assets/cc1.png')
 const cardImage2 = require('../assets/cc2.png')
 
-class Card extends React.Component {
+export default class Card extends React.Component {
     render(){
         return(
             <View>
@@ -60,6 +60,3 @@ class Card extends React.Component {
         )
     }
 }
-    
-
-export default Card;
