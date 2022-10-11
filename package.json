@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4",
+    "react-native": "0.70.2",
     "react-native-fa-icons": "^4.1.0",
     "react-native-fontawesome": "^5.7.0",
     "react-native-nav-tabbar": "0.0.2",
